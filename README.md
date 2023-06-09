@@ -1,29 +1,7 @@
-# vue-tabs-challange
+# vue-tabs-challenge
 
-This template should help get you started developing with Vue 3 in Vite.
+Implement the following component inside src/componets/Tabs.jsx and fetch the tab data from the backend on http://localhost:3003/tabs
 
-## Recommended IDE Setup
+![Preview Gif](https://github.com/Mereb-Tech/react-tabs-challenge/blob/main/preview.gif)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+<img width="979" alt="screenshot" src="https://user-images.githubusercontent.com/108453092/181007694-d9b59f74-5a09-480c-b562-30efc27dfe1a.png">
