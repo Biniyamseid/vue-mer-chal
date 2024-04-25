@@ -3,19 +3,26 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@mdi/font": "5.9.55",
     "axios": "^1.6.8",
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "roboto-fontface": "*",
     "vue": "^3.3.2",
-    "vue-router": "^4.2.0"
+    "vue-router": "^4.2.0",
+    "vuetify": "^3.6.0-beta.0.0",
+    "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.3.5"
+    "vite": "^4.3.5",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
   }
 }
