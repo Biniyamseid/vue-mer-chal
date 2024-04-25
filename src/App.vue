@@ -1,9 +1,23 @@
-<script setup>
-import Tabs from './components/Tabs.vue'
-</script>
+
+
+
+
+
 
 <template>
-  <Tabs />
+  <div id="app">
+    <Tabs />
+  </div>
 </template>
 
-<style scoped></style>
+<script>
+import Tabs from './components/Tabs.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Tabs
+  }
+}
+</script>
+
