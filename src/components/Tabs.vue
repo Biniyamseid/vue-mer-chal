@@ -3,7 +3,7 @@
     <v-toolbar color="primary" class="">
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Your Dashboard</v-toolbar-title>
+      <v-toolbar-title></v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -16,7 +16,7 @@
       </v-btn>
 
       <template v-slot:extension>
-        <v-tabs v-model="value" align-tabs="title" >
+        <v-tabs v-model="value" align-tabs="title" color="black" >
           <v-tab v-for="(tab, index) in tabs" :key="tab.id" :value="tab.id">
             {{ tab.label }}
           </v-tab>
